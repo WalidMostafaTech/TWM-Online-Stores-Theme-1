@@ -1,0 +1,19 @@
+import { configureStore } from "@reduxjs/toolkit";
+import settingsReducer from "./settings/settingsSlice";
+import authReducer from "./auth/authSlice";
+import languageReducer from "./languageSlice/languageSlice";
+import modalsReducer from "./modals/modalsSlice";
+import categoriesReducer from "./categories/categoriesSlice";
+import { injectStore } from "@/api/api";
+
+export const store = configureStore({
+  reducer: {
+    settings: settingsReducer,
+    auth: authReducer,
+    language: languageReducer,
+    modals: modalsReducer,
+    categories: categoriesReducer,
+  },
+});
+
+injectStore(store);

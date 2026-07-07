@@ -1,0 +1,569 @@
+{
+  "loading": "جاري التحميل...",
+  "downloading": "جاري التحميل",
+  "all": "كل",
+
+  "privacyPolicy": "سياسة الخصوصية",
+  "termsAndConditions": "الشروط والأحكام",
+  "contactUs": "تواصل معنا",
+  "developedBy": "تطوير بواسطة Techno Web Masr",
+
+  "noDataFound": "لا توجد بيانات",
+  "teachers": "المحاضرين",
+  "courses": "الكورسات",
+  "registerAsTeacher": "التسجيل كمحاضر",
+  "phone": "اتصال",
+  "whatsapp": "واتساب",
+
+  "NotificationsPopUp": {
+    "notFound": "لا توجد إشعارات",
+    "seeAll": "عرض كل الإشعارات"
+  },
+
+  "notifications": {
+    "title": "الإشعارات",
+    "subtitle": "اطلع على الإشعارات الخاصة بك",
+    "empty": "لا توجد إشعارات حالياً.",
+    "markAllRead": "قراءة الكل",
+    "loading": "جاري القراءة..."
+  },
+
+  "logOutModal": {
+    "logout": "تسجيل الخروج",
+    "logoutConfirm": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+    "cancel": "تراجع",
+    "login": "تسجيل الدخول"
+  },
+
+  "requiredLoginModal": {
+    "title": "تسجيل الدخول مطلوب",
+    "description": "يجب عليك تسجيل الدخول لتتمكن من المواصلة",
+    "login": "تسجيل دخول",
+    "createAccount": "إنشاء حساب"
+  },
+
+  "requiredVerifyEmailModal": {
+    "title": "بريدك الإلكتروني غير مُفعّل!",
+    "description": "يجب تفعيل بريدك الإلكتروني للوصول إلى هذه الصفحة",
+    "goToVerify": "تفعيل البريد الإلكتروني",
+    "cancel": "تراجع"
+  },
+
+  "TermsModal": {
+    "title": "الشروط والأحكام",
+    "description": "شروط وأحكام نموذج التسجيل."
+  },
+
+  "checkVerifiedEmailGuard": {
+    "title": "بريدك الإلكتروني غير مُفعّل!",
+    "description": "يجب تفعيل بريدك الإلكتروني للوصول إلى هذه الصفحة",
+    "button": "تفعيل البريد الإلكتروني"
+  },
+
+  "ContactForm": {
+    "heading": "تواصل معنا",
+    "name": "الاسم",
+    "namePlaceholder": "أدخل الاسم",
+    "nameRequired": "الاسم مطلوب",
+    "phone": "الهاتف",
+    "phonePlaceholder": "أدخل رقم الهاتف",
+    "invalidPhone": "رقم الهاتف غير صالح",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "example@example.com",
+    "invalidEmail": "البريد الإلكتروني غير صالح",
+    "message": "الرسالة",
+    "messagePlaceholder": "اكتب رسالتك...",
+    "messageMin": "يجب أن تحتوي الرسالة على 10 أحرف على الأقل",
+    "send": "إرسال",
+    "sending": "جاري الإرسال...",
+    "cancel": "تراجع",
+    "successMessage": "تم إرسال الرسالة بنجاح! سنعاود الاتصال بك قريبًا.",
+    "somethingWrong": "حدث خطأ ما"
+  },
+
+  "ForgotPassword": {
+    "step1Title": "نسيت كلمة المرور",
+    "step1Description": "أدخل بريدك الإلكتروني لتلقي رابط إعادة تعيين كلمة المرور.",
+    "step2Title": "تحقق من رسائلك",
+    "step2Description": "أدخل الرمز المرسل إلى بريدك الإلكتروني للتحقق من هويتك.",
+    "step3Title": "إعادة تعيين كلمة المرور",
+    "step3Description": "أنشئ كلمة مرور جديدة لحسابك."
+  },
+
+  "checkEmail": {
+    "title": "نسيت كلمة المرور",
+    "description": "أدخل بريدك الإلكتروني لإعادة تعيين كلمة المرور",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "example@email.com",
+    "sending": "جاري الإرسال...",
+    "sendResetLink": "إرسال رمز تغيير كلمة المرور",
+    "rememberPassword": "تذكرت كلمة المرور؟",
+    "login": "تسجيل الدخول",
+    "invalidEmail": "البريد الإلكتروني غير صحيح",
+    "genericError": "حدث خطأ، حاول مرة أخرى"
+  },
+
+  "otp": {
+    "title": "تأكيد الرمز",
+    "description": "لقد قمنا بارسال كود الاسترجاع الى رقم الواتساب الخاص بك قم بالتحقق من الرسائل وادخل الكود المرسل الى {{email}}",
+    "otpRequired": "أدخل رمز مكوّن من 6 أرقام",
+    "verifying": "جاري التحقق...",
+    "confirm": "تأكيد الرمز",
+    "notReceived": "لم يصلك الرمز؟",
+    "resendIn": "إعادة الإرسال خلال {{countdown}}s",
+    "resend": "إعادة الإرسال",
+    "backToLogin": "الرجوع لتسجيل الدخول",
+    "wrongOtp": "الرمز غير صحيح"
+  },
+
+  "resetPassword": {
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "passwordStrength": "قوة كلمة المرور:",
+    "resetting": "جارٍ إعادة التعيين...",
+    "saveNewPassword": "حفظ كلمة المرور الجديدة",
+    "minLength": "يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+    "mismatch": "كلمتا المرور غير متطابقتين",
+    "genericError": "حدث خطأ ما"
+  },
+
+  "login": {
+    "title": "تسجيل الدخول",
+    "description": "الرجاء إدخال بياناتك للوصول إلى حسابك",
+    "tabs": {
+      "email": "البريد الإلكتروني",
+      "phone": "رقم الهاتف"
+    },
+    "placeholders": {
+      "email": "example@example.com",
+      "phone": "أدخل رقم هاتفك",
+      "password": "************"
+    },
+    "labels": {
+      "email": "البريد الإلكتروني",
+      "phone": "رقم الهاتف",
+      "password": "كلمة المرور"
+    },
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "loginButton": "تسجيل الدخول",
+    "loggingIn": "جاري تسجيل الدخول...",
+    "noAccount": "ليس لديك حساب؟",
+    "createAccount": "إنشاء حساب",
+    "invalidEmail": "البريد الإلكتروني غير صالح",
+    "invalidPhone": "رقم الهاتف غير صالح",
+    "passwordMin": "كلمة المرور يجب أن تكون 6 أحرف على الأقل"
+  },
+
+  "changePassword": {
+    "title": "تغيير كلمة المرور",
+
+    "form": {
+      "currentPassword": {
+        "label": "كلمة المرور الحالية",
+        "validation": {
+          "min": "كلمة المرور قصيرة"
+        }
+      },
+      "newPassword": {
+        "label": "كلمة المرور الجديدة",
+        "validation": {
+          "min": "كلمة المرور الجديدة قصيرة"
+        }
+      },
+      "confirmPassword": {
+        "label": "تأكيد كلمة المرور الجديدة",
+        "validation": {
+          "min": "كلمة المرور قصيرة",
+          "match": "كلمتا المرور غير متطابقتين"
+        }
+      }
+    },
+
+    "buttons": {
+      "submit": "تغيير كلمة المرور",
+      "submitting": "جاري التغيير...",
+      "cancel": "تراجع"
+    },
+
+    "messages": {
+      "success": "تم تغيير كلمة المرور بنجاح"
+    }
+  },
+
+  "verifyEmailPage": {
+    "title": "تحقق من رسائلك",
+    "description": "لأمانك، أرسلنا رمز تحقق لمرة واحدة (OTP) إلى تفاصيل الاتصال المسجلة لديك. أدخل الرمز أدناه للتحقق من هويتك والمتابعة.",
+    "verifyButton": "تحقق من البريد الإلكتروني",
+    "checking": "جارٍ التحقق...",
+    "didntReceive": "لم تستلم الرمز؟",
+    "resend": "إعادة الإرسال",
+    "backToRegister": "العودة للتسجيل",
+    "otpError": "يجب أن يكون الرمز مكونًا من 6 أرقام",
+    "invalidOtp": "رمز التحقق غير صحيح",
+    "resendIn": "إعادة الإرسال بعد {{seconds}} ثانية"
+  },
+
+  "registerPage": {
+    "title": "انشاء حساب",
+    "description": "هل انت محاضر أم متدرب؟",
+    "student": "متدرب",
+    "teacher": "محاضر",
+    "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+    "signInHere": "تسجيل الدخول هنا"
+  },
+
+  "RegisterStudent": {
+    "createAccount": "انشاء حساب كمتدرب",
+    "enterDetails": "يرجى إدخال بياناتك للوصول إلى حسابك",
+    "uploadImage": "قم بتحميل صورتك",
+    "fullName": "الاسم الكامل",
+    "fullNamePlaceholder": "أدخل اسمك الكامل",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "example@example.com",
+    "phone": "رقم الهاتف",
+    "phonePlaceholder": "أدخل رقم الهاتف",
+    "password": "كلمة المرور",
+    "agreeTo": "أوافق على",
+    "termsAndConditions": "الشروط والأحكام",
+    "creating": "جارٍ الإنشاء...",
+    "somethingWentWrong": "حدث خطأ ما",
+    "nameTooShort": "الاسم قصير جدًا",
+    "invalidEmail": "البريد الإلكتروني غير صالح",
+    "invalidPhone": "رقم الهاتف غير صالح",
+    "passwordMin": "يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "termsRequired": "يجب قبول الشروط",
+    "passwordsMismatch": "كلمتا المرور غير متطابقتين"
+  },
+
+  "RegisterTeacher": {
+    "createAccount": "إنشاء حساب كمحاضر",
+    "enterDetails": "يرجى إدخال بياناتك للوصول إلى حسابك"
+  },
+
+  "RegisterTeacherStep1": {
+    "uploadImage": "قم بتحميل صورتك",
+    "fullNameArabic": "الاسم باللغة العربية",
+    "fullNameArabicPlaceholder": "أدخل الاسم باللغة العربية",
+
+    "fullNameEnglish": "الاسم باللغة الإنجليزية",
+    "fullNameEnglishPlaceholder": "Enter your name in English",
+
+    "nameEnTooShort": "الاسم باللغة الإنجليزية قصير جدًا",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "example@example.com",
+    "phone": "رقم الهاتف",
+    "phonePlaceholder": "أدخل رقم الهاتف",
+    "password": "كلمة المرور",
+    "agreeTo": "أوافق على",
+    "termsAndConditions": "الشروط والأحكام",
+    "continueNextStep": "المتابعة للخطوة التالية",
+    "nameTooShort": "الاسم قصير جدًا",
+    "invalidEmail": "البريد الإلكتروني غير صالح",
+    "invalidPhone": "رقم الهاتف غير صالح",
+    "passwordMin": "يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "termsRequired": "يجب قبول الشروط",
+    "passwordsMismatch": "كلمتا المرور غير متطابقتين",
+    "city": "المدينة",
+    "cityPlaceholder": "أدخل مدينتك",
+    "cityRequired": "يجب إدخال المدينة"
+  },
+
+  "RegisterTeacherStep2": {
+    "jobTitleAr": "المسمى الوظيفي باللغة العربية",
+    "jobTitleEn": "المسمى الوظيفي باللغة الإنجليزية",
+    "jobTitleArPlaceholder": "ادخل المسمى الوظيفي...",
+    "jobTitleEnPlaceholder": "ادخل المسمى الوظيفي...",
+    "bioAr": "نبذة عنك باللغة العربية",
+    "bioEn": "نبذة عنك باللغة الإنجليزية",
+    "bioArPlaceholder": "أضف نبذة عنك...",
+    "bioEnPlaceholder": "أضف نبذة عنك...",
+    "department": "القسم",
+    "departmentPlaceholder": "اختر القسم...",
+    "continueNextStep": "المتابعة للخطوة التالية",
+    "provideMoreDetails": "يرجى تقديم مزيد من التفاصيل",
+    "completeRegistration": "إكمال التسجيل",
+    "creating": "جارٍ الإنشاء...",
+    "somethingWentWrong": "حدث خطأ ما",
+    "validation": {
+      "jobTitleAr": "يرجى إدخال المسمى الوظيفي باللغة العربية",
+      "jobTitleEn": "يرجى إدخال المسمى الوظيفي باللغة الإنجليزية",
+      "bioAr": "يرجى كتابة نبذة عنك باللغة العربية",
+      "bioEn": "يرجى كتابة نبذة عنك باللغة الإنجليزية",
+      "department": "يرجى اختيار القسم"
+    },
+    "departments": {
+      "marketing": "التسويق",
+      "sales": "المبيعات",
+      "it": "تقنية المعلومات"
+    }
+  },
+
+  "CompleteRegister": {
+    "title": "تم إرسال بياناتك بنجاح",
+    "description": "سيتم مراجعة البيانات وإعلامك عن طريق البريد الإلكتروني",
+    "goHome": "الذهاب للصفحة الرئيسية"
+  },
+
+  "account": {
+    "personalInfo": "البيانات الشخصية",
+    "form": {
+      "name": {
+        "label": "الاسم",
+        "placeholder": "ادخل الاسم",
+        "validation": {
+          "min": "الاسم بالعربي يجب أن يكون حرفين على الأقل"
+        }
+      },
+      "nameAr": {
+        "label": "الاسم باللغة العربية",
+        "placeholder": "ادخل الاسم",
+        "validation": {
+          "min": "الاسم بالعربي يجب أن يكون حرفين على الأقل"
+        }
+      },
+      "nameEn": {
+        "label": "الاسم باللغة الانجليزية",
+        "placeholder": "ادخل الاسم باللغة الانجليزية",
+        "validation": {
+          "min": "الاسم بالإنجليزي يجب أن يكون حرفين على الأقل"
+        }
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "walidmoustafa@gmail.com",
+        "validation": {
+          "invalid": "البريد الإلكتروني غير صالح"
+        }
+      },
+      "phone": {
+        "label": "رقم الهاتف",
+        "validation": {
+          "invalid": "رقم الهاتف غير صالح"
+        }
+      },
+      "department": {
+        "label": "القسم",
+        "placeholder": "اختر القسم..."
+      },
+      "jobTitleAr": {
+        "label": "المسمى الوظيفي باللغة العربية",
+        "placeholder": "ادخل المسمى الوظيفي..."
+      },
+      "jobTitleEn": {
+        "label": "المسمى الوظيفي باللغة الانجليزية",
+        "placeholder": "Enter a job title..."
+      },
+      "bioAr": {
+        "label": "نبذة عني باللغة العربية",
+        "placeholder": "ادخل نبذة عنك باللغة العربية..."
+      },
+      "bioEn": {
+        "label": "نبذة عني باللغة الانجليزية",
+        "placeholder": "Enter a bio in English..."
+      }
+    },
+    "buttons": {
+      "save": "حفظ التغييرات",
+      "saving": "جاري الحفظ...",
+      "changePassword": "تغيير كلمة المرور",
+      "edit": "تعديل",
+      "cancelEdit": "الغاء التعديل"
+    },
+    "messages": {
+      "success": "تم تحديث البيانات بنجاح"
+    }
+  },
+
+  "payment": {
+    "success": {
+      "title": "تم الدفع بنجاح",
+      "description": "شكراً لك! تم تأكيد عملية الدفع بنجاح."
+    },
+    "failed": {
+      "title": "فشلت عملية الدفع",
+      "description": "حدث خطأ أثناء عملية الدفع، يرجى المحاولة مرة أخرى."
+    },
+    "unknown": {
+      "title": "حالة غير معروفة",
+      "description": "الرجاء التأكد من رابط الدفع أو المحاولة لاحقاً."
+    },
+    "actions": {
+      "retry": "إعادة المحاولة",
+      "orders": "الذهاب إلى الطلبات",
+      "home": "الرجوع للرئيسية"
+    }
+  },
+
+  "notFound": {
+    "title": "404",
+    "subtitle": "الصفحة غير موجودة",
+    "goHome": "العودة للرئيسية"
+  },
+
+  "ErrorPage": {
+    "title": "حدث خطأ غير متوقع",
+    "description": "حدثت مشكلة أثناء تحميل الصفحة، برجاء المحاولة مرة أخرى",
+    "reload": "إعادة تحميل الصفحة",
+    "goHome": "العودة للرئيسية"
+  },
+
+  "header": {
+    "instructors": "المحاضرين",
+    "courses": "الكورسات",
+    "all": "الكل",
+    "subCategories": "القسم الفرعي"
+  },
+
+  "search": {
+    "placeholder": "ابحث فى المنصة",
+    "searching": "جاري البحث...",
+    "noResults": "لا توجد نتائج لـ",
+    "instructor": "المحاضر",
+    "courses": "الكورسات",
+    "instructors": "المحاضرين",
+    "categories": "الأقسام"
+  },
+
+
+
+  "cartCard": {
+    "lecturesCount": "{{count}} محاضرة",
+    "lecturesCount_plural": "{{count}} محاضرات",
+    "delete": "حذف",
+    "deleteTitle": "حذف من السلة",
+    "deleteDescription": "هل أنت متأكد من رغبتك في حذف كورس \"{{name}}\"؟ لا يمكن التراجع عن هذا الإجراء.",
+    "confirmDelete": "تأكيد الحذف",
+    "cancel": "إلغاء",
+    "deleteSuccess": "تم حذف الكورس من السلة بنجاح",
+    "deleteError": "حدث خطأ أثناء الحذف"
+  },
+
+
+  "orderCard": {
+    "orderCode": "كود الطلب:",
+    "paymentStatus": "حالة الدفع:",
+    "orderStatus": "حالة الطلب:",
+    "paymentMethod": "طريقة الدفع:",
+    "price": "السعر:",
+    "viewDetails": "عرض تفاصيل الطلب"
+  },
+
+  "ordersDetailsCard": {
+    "lecturesCount": "{{count}} محاضرة",
+    "lecturesCount_plural": "{{count}} محاضرات",
+    "courseStatus": "حالة الكورس:",
+    "viewLectures": "عرض المحاضرات",
+    "progress": "التقدم في المشاهدة"
+  },
+
+
+
+  "profileSide": {
+    "personalInfo": "البيانات الشخصية",
+    "orders": "الطلبات",
+    "myCourses": "الكورسات",
+    "exams": "الاختبارات",
+    "certificates": "الشهادات",
+    "financialTransfers": "التحويلات المالية",
+    "logout": "تسجيل الخروج",
+    "login": "تسجيل الدخول",
+    "joinAsInstructor": "انضم كمحاضر"
+  },
+
+  "successPaymentModal": {
+    "title": "تم تسجيل طلبك بنجاح!",
+    "description": "شكراً لك! تم استلام بيانات الدفع والطلب بنجاح، وجاري مراجعة التحويل وتأكيد الطلب من قبل الإدارة في أقرب وقت.",
+    "goToOrders": "الذهاب إلى طلباتي",
+    "ok": "حسناً"
+  },
+
+  "paymentModal": {
+    "title": "اختر طريقة الدفع",
+    "description": "يرجى اختيار الوسيلة الأنسب لك لإتمام العملية",
+    "vodafoneCash": "فودافون كاش",
+    "vodafoneCashDesc": "تحويل فوري عبر المحفظة",
+    "instaPay": "إنستا باي (Insta Pay)",
+    "instaPayDesc": "تحويل بنكي لحظي",
+    "onlinePayment": "دفع اونلاين",
+    "onlinePaymentDesc": "بطاقات فيزا أو ماستركارد"
+  },
+
+  "cart": {
+    "title": "سلة المشتريات",
+    "emptyMessage": "سلة المشتريات فارغة"
+  },
+
+  "orderSummary": {
+    "title": "ملخص الطلب",
+    "count": "العدد:",
+    "mainTotal": "الإجمالي الرئيسي:",
+    "choosePayment": "اختر طريقة الدفع",
+    "vodafoneCash": "فودافون كاش",
+    "instaPay": "إنستا باي",
+    "onlinePayment": "دفع أونلاين",
+    "subtotal": "الإجمالي الفرعي:",
+    "serviceFee": "رسوم الخدمة ({{percent}}%):",
+    "finalTotal": "الإجمالي النهائي:",
+    "transferTo": "قم بتحويل مبلغ الطلب إلى الرقم التالي:",
+    "copyNumber": "نسخ الرقم",
+    "copied": "تم النسخ!",
+    "attachReceipt": "إرفاق صورة التحويل (إيصال الدفع):",
+    "clickToUpload": "اضغط هنا لرفع صورة الإيصال",
+    "deleteImage": "حذف الصورة",
+    "processing": "جاري تنفيذ طلبك...",
+    "updating": "جاري تحديث الفاتورة...",
+    "confirmPayment": "تأكيد الدفع وإرسال الطلب",
+    "continueShopping": "استكمال الشراء",
+    "selectPaymentError": "برجاء اختيار طريقة الدفع أولاً للاستمرار",
+    "uploadImageError": "برجاء رفع صورة التحويل أولاً لتأكيد الدفع",
+    "orderError": "حدث خطأ أثناء إتمام الطلب، برجاء المحاولة مرة أخرى.",
+    "copySuccess": "تم نسخ الرقم بنجاح!",
+    "copyFailed": "فشل نسخ الرقم"
+  },
+
+  "hero": {
+    "exploreCourses": "استكشف الكورسات"
+  },
+
+  "profileSidebar": {
+    "personalInfo": "البيانات الشخصية",
+    "orders": "الطلبات",
+    "myCourses": "الكورسات",
+    "exams": "الاختبارات",
+    "certificates": "الشهادات",
+    "financialTransfers": "التحويلات المالية",
+    "notifications": "الاشعارات",
+    "logout": "تسجيل الخروج",
+    "menu": "القائمة"
+  },
+
+  "orders": {
+    "title": "طلباتي",
+    "emptyMessage": "لا توجد طلبات حتى الآن",
+    "searchLabel": "بحث بكود الطلب",
+    "searchPlaceholder": "أدخل كود الطلب...",
+    "orderStatusLabel": "حالة الطلب",
+    "statusPlaceholder": "اختر حالة الطلب",
+    "paymentStatusLabel": "حالة الدفع",
+    "paymentPlaceholder": "اختر حالة الدفع",
+    "fromDate": "من تاريخ",
+    "toDate": "إلى تاريخ",
+    "all": "الكل",
+    "status": {
+      "ongoing": "جاري",
+      "completed": "مكتمل",
+      "cancelled": "ملغي"
+    },
+    "payment": {
+      "paid": "مدفوع",
+      "unpaid": "غير مدفوع"
+    }
+  },
+
+  "orderDetails": {
+    "title": "تفاصيل الطلب",
+    "emptyMessage": "لا توجد طلبات حتى الآن"
+  }
+}

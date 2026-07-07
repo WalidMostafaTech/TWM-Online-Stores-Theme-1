@@ -1,0 +1,564 @@
+{
+  "loading": "Loading...",
+  "downloading": "Downloading...",
+  "all": "All",
+
+  "privacyPolicy": "Privacy Policy",
+  "termsAndConditions": "Terms and Conditions",
+  "contactUs": "Contact Us",
+  "developedBy": "Developed by Techno Web Masr",
+
+  "noDataFound": "No data found",
+  "teachers": "Instructors",
+  "courses": "Courses",
+  "registerAsTeacher": "Register as Instructor",
+  "phone": "Phone",
+  "whatsapp": "WhatsApp",
+
+  "NotificationsPopUp": {
+    "notFound": "No notifications found",
+    "seeAll": "See All Notifications"
+  },
+
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "View your notifications",
+    "empty": "No notifications yet.",
+    "markAllRead": "Mark all as read",
+    "loading": "Reading..."
+  },
+
+  "logOutModal": {
+    "logoutConfirm": "Are you sure you want to logout?",
+    "cancel": "Cancel",
+    "login": "Login",
+    "logout": "Logout"
+  },
+
+  "requiredLoginModal": {
+    "title": "Login Required",
+    "description": "You must login to continue",
+    "login": "Login",
+    "createAccount": "Create Account"
+  },
+
+  "requiredVerifyEmailModal": {
+    "title": "Your email is not verified!",
+    "description": "You must verify your email to access this page",
+    "goToVerify": "Verify Email",
+    "cancel": "Cancel"
+  },
+
+  "TermsModal": {
+    "title": "Terms & Conditions",
+    "description": "Terms and conditions of the registration form."
+  },
+
+  "checkVerifiedEmailGuard": {
+    "title": "Your email is not verified!",
+    "description": "You need to verify your email to access this page.",
+    "button": "Verify your email"
+  },
+
+  "ContactForm": {
+    "heading": "Contact Us",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "nameRequired": "name is required",
+    "phone": "Phone",
+    "phonePlaceholder": "Enter your phone number",
+    "invalidPhone": "Invalid phone number",
+    "email": "Email Address",
+    "emailPlaceholder": "example@example.com",
+    "invalidEmail": "Invalid email address",
+    "message": "Message",
+    "messagePlaceholder": "Write your message...",
+    "messageMin": "Message must be at least 10 characters",
+    "send": "Send",
+    "sending": "Sending...",
+    "cancel": "Cancel",
+    "successMessage": "Message sent successfully! We will get back to you soon.",
+    "somethingWrong": "Something went wrong"
+  },
+
+  "ForgotPassword": {
+    "step1Title": "Forget Your Password",
+    "step1Description": "Enter your email to receive a password reset link.",
+    "step2Title": "Check Your Messages",
+    "step2Description": "Enter the OTP sent to your email to verify your identity.",
+    "step3Title": "Reset Your Password",
+    "step3Description": "Create a new password for your account."
+  },
+
+  "checkEmail": {
+    "title": "Forgot Password",
+    "description": "Enter your email to reset your password",
+    "emailLabel": "Email",
+    "emailPlaceholder": "example@email.com",
+    "sending": "Sending...",
+    "sendResetLink": "Send Reset Code",
+    "rememberPassword": "Remembered your password?",
+    "login": "Login",
+    "invalidEmail": "Invalid email address",
+    "genericError": "Something went wrong, please try again"
+  },
+
+  "otp": {
+    "title": "OTP Verification",
+    "description": "We sent a recovery code to your WhatsApp number. Please check your messages and enter the code sent to {{email}}",
+    "otpRequired": "Enter a 6-digit code",
+    "verifying": "Verifying...",
+    "confirm": "Confirm Code",
+    "notReceived": "Didn't receive the code?",
+    "resendIn": "Resend in {{countdown}}s",
+    "resend": "Resend",
+    "backToLogin": "Back to Login",
+    "wrongOtp": "Invalid code"
+  },
+
+  "resetPassword": {
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "passwordStrength": "Password strength:",
+    "resetting": "Resetting...",
+    "saveNewPassword": "Save New Password",
+    "minLength": "Password must be at least 6 characters",
+    "mismatch": "Passwords do not match",
+    "genericError": "Something went wrong"
+  },
+
+  "login": {
+    "title": "Login Your Account",
+    "description": "Please enter your details to access your account",
+    "tabs": {
+      "email": "Email Address",
+      "phone": "Phone Number"
+    },
+    "placeholders": {
+      "email": "example@example.com",
+      "phone": "Enter your phone number",
+      "password": "************"
+    },
+    "labels": {
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "password": "Password"
+    },
+    "forgotPassword": "Forget Password?",
+    "loginButton": "Login Your Account",
+    "loggingIn": "Logging in...",
+    "noAccount": "Don't have an account?",
+    "createAccount": "Create an Account",
+    "invalidEmail": "Invalid email address",
+    "invalidPhone": "Invalid phone number",
+    "passwordMin": "Password must be at least 6 characters"
+  },
+
+  "changePassword": {
+    "title": "Change Password",
+
+    "form": {
+      "currentPassword": {
+        "label": "Current password",
+        "validation": {
+          "min": "Password is too short"
+        }
+      },
+      "newPassword": {
+        "label": "New password",
+        "validation": {
+          "min": "New password is too short"
+        }
+      },
+      "confirmPassword": {
+        "label": "Confirm new password",
+        "validation": {
+          "min": "Password is too short",
+          "match": "Passwords do not match"
+        }
+      }
+    },
+
+    "buttons": {
+      "submit": "Change password",
+      "submitting": "Changing...",
+      "cancel": "Cancel"
+    },
+
+    "messages": {
+      "success": "Password changed successfully"
+    }
+  },
+
+  "verifyEmailPage": {
+    "title": "Check Your Messages",
+    "description": "For your security, we've sent a one-time password (OTP) to your registered contact details. Enter the code below to verify your identity and proceed.",
+    "verifyButton": "Verify Email",
+    "checking": "Checking...",
+    "didntReceive": "Didn't receive the code?",
+    "resend": "Resend",
+    "backToRegister": "Back to Register",
+    "otpError": "OTP must be 6 digits",
+    "invalidOtp": "Invalid OTP",
+    "resendIn": "Resend in {{seconds}}s"
+  },
+
+  "registerPage": {
+    "title": "Register",
+    "description": "Are you a student or a instructor?",
+    "student": "Student",
+    "teacher": "Instructor",
+    "alreadyHaveAccount": "Already have an account?",
+    "signInHere": "Sign in here"
+  },
+
+  "RegisterStudent": {
+    "createAccount": "Create Student Account",
+    "enterDetails": "Please enter your details to access your account",
+    "uploadImage": "Upload your image",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "email": "Email Address",
+    "emailPlaceholder": "example@example.com",
+    "phone": "Phone",
+    "phonePlaceholder": "Enter phone number",
+    "password": "Password",
+    "agreeTo": "I agree to the",
+    "termsAndConditions": "Terms and Conditions",
+    "creating": "Creating...",
+    "somethingWentWrong": "Something went wrong",
+    "nameTooShort": "Name is too short",
+    "invalidEmail": "Invalid email address",
+    "invalidPhone": "Invalid phone number",
+    "passwordMin": "Password must be at least 6 characters",
+    "confirmPassword": "Confirm your password",
+    "termsRequired": "You must accept terms",
+    "passwordsMismatch": "Passwords do not match"
+  },
+
+  "RegisterTeacher": {
+    "createAccount": "Create Instructor Account",
+    "enterDetails": "Please enter your details to access your account"
+  },
+
+  "RegisterTeacherStep1": {
+    "uploadImage": "Upload your image",
+    "fullNameArabic": "Arabic Name",
+    "fullNameArabicPlaceholder": "Enter your Arabic name",
+
+    "fullNameEnglish": "English Name",
+    "fullNameEnglishPlaceholder": "Enter your English name",
+
+    "nameEnTooShort": "English name is too short",
+    "email": "Email Address",
+    "emailPlaceholder": "example@example.com",
+    "phone": "Phone",
+    "phonePlaceholder": "Enter phone number",
+    "password": "Password",
+    "agreeTo": "I agree to the",
+    "termsAndConditions": "Terms and Conditions",
+    "continueNextStep": "Continue Next Step",
+    "nameTooShort": "Name is too short",
+    "invalidEmail": "Invalid email address",
+    "invalidPhone": "Invalid phone number",
+    "passwordMin": "Password must be at least 6 characters",
+    "confirmPassword": "Confirm your password",
+    "termsRequired": "You must accept terms",
+    "passwordsMismatch": "Passwords do not match",
+    "city": "City",
+    "cityPlaceholder": "Enter your city",
+    "cityRequired": "City is required"
+  },
+
+  "RegisterTeacherStep2": {
+    "jobTitleAr": "Job Title (Arabic)",
+    "jobTitleEn": "Job Title (English)",
+    "jobTitleArPlaceholder": "Enter job title...",
+    "jobTitleEnPlaceholder": "Enter job title...",
+    "bioAr": "About You (Arabic)",
+    "bioEn": "About You (English)",
+    "bioArPlaceholder": "Add a short bio...",
+    "bioEnPlaceholder": "Add a short bio...",
+    "department": "Department",
+    "departmentPlaceholder": "Select department...",
+    "continueNextStep": "Continue Next Step",
+    "provideMoreDetails": "Please provide more details",
+    "completeRegistration": "Complete Registration",
+    "creating": "Creating...",
+    "somethingWentWrong": "Something went wrong",
+    "validation": {
+      "jobTitleAr": "Please enter the job title in Arabic",
+      "jobTitleEn": "Please enter the job title in English",
+      "bioAr": "Please provide a short bio in Arabic",
+      "bioEn": "Please provide a short bio in English",
+      "department": "Please select a department"
+    },
+    "departments": {
+      "marketing": "Marketing",
+      "sales": "Sales",
+      "it": "Information Technology"
+    }
+  },
+
+  "CompleteRegister": {
+    "title": "Your data has been submitted successfully",
+    "description": "Your information will be reviewed and you will be notified via email",
+    "goHome": "Go to Home"
+  },
+
+  "account": {
+    "personalInfo": "Personal Information",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter your name",
+        "validation": {
+          "min": "name must be at least 2 characters"
+        }
+      },
+      "nameAr": {
+        "label": "Name (Arabic)",
+        "placeholder": "Enter your Arabic name",
+        "validation": {
+          "min": "Arabic name must be at least 2 characters"
+        }
+      },
+      "nameEn": {
+        "label": "Name (English)",
+        "placeholder": "Enter your English name",
+        "validation": {
+          "min": "English name must be at least 2 characters"
+        }
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "walidmoustafa@gmail.com",
+        "validation": {
+          "invalid": "Invalid email address"
+        }
+      },
+      "phone": {
+        "label": "Phone number",
+        "validation": {
+          "invalid": "Invalid phone number"
+        }
+      },
+      "department": {
+        "label": "Department",
+        "placeholder": "Select department..."
+      },
+      "jobTitleAr": {
+        "label": "Job Title (Arabic)",
+        "placeholder": "ادخل الوظيفة باللغة العربية..."
+      },
+      "jobTitleEn": {
+        "label": "Job Title (English)",
+        "placeholder": "Enter your job title..."
+      },
+      "bioAr": {
+        "label": "Bio (Arabic)",
+        "placeholder": "ادخل نبذة عنك باللغة العربية..."
+      },
+      "bioEn": {
+        "label": "Bio (English)",
+        "placeholder": "Enter your bio here..."
+      }
+    },
+    "buttons": {
+      "save": "Save changes",
+      "saving": "Saving...",
+      "changePassword": "Change password",
+      "edit": "Edit",
+      "cancelEdit": "Cancel"
+    },
+    "messages": {
+      "success": "Profile updated successfully"
+    }
+  },
+
+  "payment": {
+    "success": {
+      "title": "Payment Successful",
+      "description": "Thank you! Your payment has been confirmed successfully."
+    },
+    "failed": {
+      "title": "Payment Failed",
+      "description": "Something went wrong during the payment process. Please try again."
+    },
+    "unknown": {
+      "title": "Unknown Status",
+      "description": "Please check the payment link or try again later."
+    },
+    "actions": {
+      "retry": "Try Again",
+      "orders": "Go to Orders",
+      "home": "Back to Home"
+    }
+  },
+
+  "ErrorPage": {
+    "title": "An unexpected error occurred",
+    "description": "There was a problem loading the page. Please try again later.",
+    "reload": "Reload page",
+    "goHome": "Go to Home"
+  },
+
+  "notFound": {
+    "title": "404",
+    "subtitle": "Page Not Found",
+    "goHome": "Go Home"
+  },
+
+  "header": {
+    "instructors": "Instructors",
+    "courses": "Courses",
+    "all": "All",
+    "subCategories": "Sub Categories"
+  },
+
+  "search": {
+    "placeholder": "Search the platform",
+    "searching": "Searching...",
+    "noResults": "No results for",
+    "instructor": "Instructor",
+    "courses": "Courses",
+    "instructors": "Instructors",
+    "categories": "Categories"
+  },
+
+  "cartCard": {
+    "lecturesCount": "{{count}} lecture",
+    "lecturesCount_plural": "{{count}} lectures",
+    "delete": "Delete",
+    "deleteTitle": "Delete from cart",
+    "deleteDescription": "Are you sure you want to delete course \"{{name}}\"? This action cannot be undone.",
+    "confirmDelete": "Confirm Delete",
+    "cancel": "Cancel",
+    "deleteSuccess": "Course deleted from cart successfully",
+    "deleteError": "An error occurred while deleting"
+  },
+
+  "orderCard": {
+    "orderCode": "Order code:",
+    "paymentStatus": "Payment status:",
+    "orderStatus": "Order status:",
+    "paymentMethod": "Payment method:",
+    "price": "Price:",
+    "viewDetails": "View Order Details"
+  },
+
+  "ordersDetailsCard": {
+    "lecturesCount": "{{count}} lecture",
+    "lecturesCount_plural": "{{count}} lectures",
+    "courseStatus": "Course status:",
+    "viewLectures": "View Lectures",
+    "progress": "Course Progress"
+  },
+
+  "profileSide": {
+    "personalInfo": "Personal Information",
+    "orders": "Orders",
+    "myCourses": "My Courses",
+    "exams": "Exams",
+    "certificates": "Certificates",
+    "financialTransfers": "Financial Transfers",
+    "logout": "Logout",
+    "login": "Login",
+    "joinAsInstructor": "Join as Instructor"
+  },
+
+  "successPaymentModal": {
+    "title": "Your order has been registered successfully!",
+    "description": "Thank you! Your payment and order data have been received successfully. Your transfer is being reviewed and the order will be confirmed by the administration as soon as possible.",
+    "goToOrders": "Go to My Orders",
+    "ok": "OK"
+  },
+
+  "paymentModal": {
+    "title": "Choose Payment Method",
+    "description": "Please choose the most suitable method for you to complete the process",
+    "vodafoneCash": "Vodafone Cash",
+    "vodafoneCashDesc": "Instant transfer via wallet",
+    "instaPay": "Insta Pay",
+    "instaPayDesc": "Instant bank transfer",
+    "onlinePayment": "Online Payment",
+    "onlinePaymentDesc": "Visa or Mastercard cards"
+  },
+
+  "cart": {
+    "title": "Shopping Cart",
+    "emptyMessage": "Your cart is empty"
+  },
+
+  "orderSummary": {
+    "title": "Order Summary",
+    "count": "Count:",
+    "mainTotal": "Main Total:",
+    "choosePayment": "Choose Payment Method",
+    "vodafoneCash": "Vodafone Cash",
+    "instaPay": "Insta Pay",
+    "onlinePayment": "Online Payment",
+    "subtotal": "Subtotal:",
+    "serviceFee": "Service fee ({{percent}}%):",
+    "finalTotal": "Final Total:",
+    "transferTo": "Please transfer the order amount to the following number:",
+    "copyNumber": "Copy number",
+    "copied": "Copied!",
+    "attachReceipt": "Attach transfer image (payment receipt):",
+    "clickToUpload": "Click here to upload receipt image",
+    "deleteImage": "Delete image",
+    "processing": "Processing your order...",
+    "updating": "Updating invoice...",
+    "confirmPayment": "Confirm Payment and Send Order",
+    "continueShopping": "Continue Shopping",
+    "selectPaymentError": "Please select a payment method first to continue",
+    "uploadImageError": "Please upload a transfer image first to confirm payment",
+    "orderError": "An error occurred while completing the order, please try again.",
+    "copySuccess": "Number copied successfully!",
+    "copyFailed": "Failed to copy number"
+  },
+
+  "hero": {
+    "exploreCourses": "Explore Courses"
+  },
+
+  "profileSidebar": {
+    "personalInfo": "Personal Information",
+    "orders": "Orders",
+    "myCourses": "My Courses",
+    "exams": "Exams",
+    "certificates": "Certificates",
+    "financialTransfers": "Financial Transfers",
+    "notifications": "Notifications",
+    "logout": "Logout",
+    "menu": "Menu"
+  },
+
+  "orders": {
+    "title": "My Orders",
+    "emptyMessage": "No orders yet",
+    "searchLabel": "Search by Order Code",
+    "searchPlaceholder": "Enter order code...",
+    "orderStatusLabel": "Order Status",
+    "statusPlaceholder": "Select order status",
+    "paymentStatusLabel": "Payment Status",
+    "paymentPlaceholder": "Select payment status",
+    "fromDate": "From Date",
+    "toDate": "To Date",
+    "all": "All",
+    "status": {
+      "ongoing": "Ongoing",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "payment": {
+      "paid": "Paid",
+      "unpaid": "Unpaid"
+    }
+  },
+
+  "orderDetails": {
+    "title": "Order Details",
+    "emptyMessage": "No orders yet"
+  }
+}
