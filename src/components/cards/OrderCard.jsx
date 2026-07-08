@@ -1,9 +1,12 @@
 import { IoCalendarOutline } from "react-icons/io5";
-import { Link } from "react-router";
+import { Link, useParams } from "react-router";
 import { useTranslation } from "react-i18next";
 
 const OrderCard = ({ item }) => {
   const { t } = useTranslation();
+  const { lang } = useParams();
+
+
   //  formate date 2026-06-16T09:47:06.000000Z
   const date = new Date(item.date).toLocaleDateString("en-GB");
   return (
@@ -44,7 +47,7 @@ const OrderCard = ({ item }) => {
         </div>
 
         <Link
-          to={`/profile/order-details/${item.id}`}
+          to={`/${lang}/profile/order-details/${item.id}`}
           className="flex items-center gap-2 py-1 px-4 border border-primary rounded-full text-xs font-semibold hover:bg-primary/10 transition"
         >
           {t("orderCard.viewDetails")}

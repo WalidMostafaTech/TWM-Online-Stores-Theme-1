@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { Link } from "react-router";
+import { Link, useParams } from "react-router";
 import { Button } from "@/components/ui/button";
 import { CiWarning } from "react-icons/ci";
 import { useTranslation } from "react-i18next";
@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 const CheckVerifiedEmailGuard = ({ children }) => {
   const { t } = useTranslation();
   const { isEmailVerified } = useSelector((s) => s.auth);
+  const { lang } = useParams();
 
   if (!isEmailVerified) {
     return (
@@ -21,7 +22,7 @@ const CheckVerifiedEmailGuard = ({ children }) => {
           {t("checkVerifiedEmailGuard.description")}
         </h2>
 
-        <Link to="/verify-email" replace>
+        <Link to={`/${lang}/verify-email`} replace>
           <Button>{t("checkVerifiedEmailGuard.button")}</Button>
         </Link>
       </section>

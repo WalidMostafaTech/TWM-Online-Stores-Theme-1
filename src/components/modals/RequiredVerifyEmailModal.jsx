@@ -7,7 +7,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { useNavigate } from "react-router";
+import { useNavigate, useParams } from "react-router";
 import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from "react-redux";
 import { closeModal } from "@/store/modals/modalsSlice";
@@ -18,6 +18,7 @@ const RequiredVerifyEmailModal = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const { modalName } = useSelector((state) => state.modals);
+  const { lang } = useParams();
 
   const onClose = () => {
     dispatch(closeModal());
@@ -28,7 +29,7 @@ const RequiredVerifyEmailModal = () => {
   };
 
   const handleVerify = () => {
-    navigate("/verify-email");
+    navigate(`/${lang}/verify-email`);
     onClose();
   };
 

@@ -46,12 +46,10 @@ const NotFound = React.lazy(() => import("../pages/NotFound/NotFound"));
 const ErrorPage = React.lazy(() => import("../pages/ErrorPage/ErrorPage"));
 
 const router = createBrowserRouter([
-  // 1. التوجيه التلقائي للمسار الرئيسي إلى اللغة الافتراضية
   {
     path: "/",
     element: <Navigate to="/ar" replace />,
   },
-  // 2. تغليف جميع مسارات تطبيقك داخل متغير الـ :lang
   {
     path: "/:lang",
     element: <App />,
@@ -62,12 +60,11 @@ const router = createBrowserRouter([
       { path: "terms-and-conditions", element: <Terms /> },
       { path: "privacy-policy", element: <Policy /> },
 
-      // مسارات الحماية المخصصة للمسجلين
       {
         element: <ProtectedRoute />,
         children: [
           {
-            path: "profile", // إزالة الـ slash (/) من البداية لتكون متداخلة بشكل صحيح مع /:lang
+            path: "profile",
             element: <Profile />,
             children: [
               { index: true, element: <Account /> },
@@ -83,7 +80,7 @@ const router = createBrowserRouter([
             ],
           },
           {
-            path: "cart", // إزالة الـ slash
+            path: "cart",
             element: (
               <CheckVerifiedEmailGuard>
                 <Cart />
@@ -101,12 +98,11 @@ const router = createBrowserRouter([
         ],
       },
 
-      // مسارات الحماية الخاصة بغير المسجلين (Auth)
       {
         element: <AuthGuard />,
         children: [
-          { path: "login", element: <Login /> }, // إزالة الـ slash
-          { path: "register", element: <Register /> }, // إزالة الـ slash
+          { path: "login", element: <Login /> },
+          { path: "register", element: <Register /> },
           { path: "register/teacher", element: <RegisterTeacher /> },
           { path: "register/student", element: <RegisterStudent /> },
           { path: "forgot-password", element: <ForgotPassword /> },
@@ -114,7 +110,7 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "verify-email", // إزالة الـ slash
+        path: "verify-email",
         element: (
           <VerifyEmailGuard>
             <VerifyEmail />

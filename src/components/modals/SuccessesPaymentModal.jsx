@@ -6,7 +6,7 @@ import {
   DialogDescription,
   DialogFooter,
 } from "@/components/ui/dialog";
-import { Link } from "react-router";
+import { Link, useParams } from "react-router";
 import { useDispatch, useSelector } from "react-redux";
 import { closeModal } from "@/store/modals/modalsSlice";
 import { Button } from "@/components/ui/button";
@@ -17,6 +17,7 @@ const SuccessesPaymentModal = () => {
   const { modalName } = useSelector((state) => state.modals);
   const dispatch = useDispatch();
   const { t } = useTranslation();
+  const { lang } = useParams();
 
   const onClose = () => {
     dispatch(closeModal());
@@ -38,7 +39,7 @@ const SuccessesPaymentModal = () => {
         </DialogHeader>
 
         <DialogFooter>
-          <Link to="/profile/orders" onClick={onClose}>
+          <Link to={`/${lang}/profile/orders`} onClick={onClose}>
             <Button className="w-full font-medium">
               {t("successPaymentModal.goToOrders")}
             </Button>
